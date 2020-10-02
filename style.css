@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    color: teal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/**************HEADER*********/
+header {
+text-align: center;
+padding: 10px;
+background-color: teal;
+color: white;
+font-family:'Robot Slab', serif;
+}
+
+h1{
+    margin:1;
+    padding: 5px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+/************LISTS************/
+homepage-layout {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.sectiona {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.sectionb {
+    padding: 150px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: left;
+}
+
+    .pillowimage1{
+        position: absolute;
+        left: 500px;
+        bottom: 230px;
+    }
+    
+    .pillowimage2{
+        position: absolute;
+        left: 750px;
+        bottom: 230px;
+    }
+
+    .pillowimage3{
+        position: absolute;
+        left: 1000px;
+        bottom: 230px;
+    }
+
+
+.sectionc {
+    padding: 150px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+}
+
+    .couch_pillows{
+        position: absolute;
+        left: 250px;
+        top:620px;
+    }
+
+    .bed_pillows{
+        position: absolute;
+        left: 500px;
+        top:620px;
+    }
+
+    .round_pillows{
+        position: absolute;
+        left: 750px;
+        top:620px;
+    }
+
+    .floor_pouf_pillows{
+        position: absolute;
+        left: 1000px;
+        top:620px;
+    }
+
+    .sectiona-text{
+        text-align: center;
+    }
+
+    .sectionb-text{
+        text-align: left;
+    }
+
+    .sectionc-text{
+        margin-top: -10%;
+    }
+
+
+header a {
+    color: gold;
+    text-decoration: none;
+    margin: 80px;
+    font-size: 20px;
+    
+}
