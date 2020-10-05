@@ -1,7 +1,13 @@
+
+
 body{
     margin: 0;
     color: teal;
     font-family: 'Roboto', sans-serif;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
 }
 
 /**************HEADER*********/
@@ -11,90 +17,125 @@ padding: 10px;
 background-color: teal;
 color: white;
 font-family:'Robot Slab', serif;
+
+min-height: auto;
+min-width: auto;
+max-width: auto;
+min-height: auto;
+max-height: auto;
 }
+
 
 h1{
     margin:1;
     padding: 5px;
     text-align: left;
     margin-left: 40px;
+    width: auto;
+    height: auto;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+nav{
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
 }
 
 /************LISTS************/
-homepage-layout {
-    margin: 0 auto;
-    width: 80%;
-    padding-top: 10px;
-}
 
-.sectiona {
-    padding: 10px;
-    margin-bottom: 10px;
+.Welcome {
     background-color: #eeeeee;
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
+    width: auto;
+    height: 400px;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
 }
 
 
-.sectionb {
-    padding: 150px;
-    margin-bottom: 10px;
-    background-color: #eeeeee;
+.Limited_Edition {
+    background-color: #ffffff;
     border: 1px solid #cccccc;
     font-size: x-large;
-    text-align: left;
-}
+    text-align: center;
+    width: auto;
+    height: 400px;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+    }
+
 
     .pillowimage1{
-        position: absolute;
-        left: 500px;
-        bottom: 230px;
+        position: relative;
+        right: 30%;
+        bottom: -10%;
     }
     
     .pillowimage2{
-        position: absolute;
-        left: 750px;
-        bottom: 230px;
+        position: relative;
+        right: 0%;
+        bottom: 40%;
     }
 
     .pillowimage3{
-        position: absolute;
-        left: 1000px;
-        bottom: 230px;
+        position: relative;
+        right: -30%;
+        bottom: 90%;
+
     }
 
 
-.sectionc {
-    padding: 150px;
+.Browse_Collection {
     background-color: #eeeeee;
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
+    width: auto;
+    height: 400px;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
 }
 
+
     .couch_pillows{
-        position: absolute;
-        left: 250px;
-        top:620px;
+        position: relative;
+        right: 30%;
+        bottom: -10%;
+
     }
 
     .bed_pillows{
-        position: absolute;
-        left: 500px;
-        top:620px;
+        position: relative;
+        right: 10%;
+        bottom: 40%;
+
     }
 
     .round_pillows{
-        position: absolute;
-        left: 750px;
-        top:620px;
+        position: relative;
+        right: -10%;
+        bottom: 90%;
+
     }
 
     .floor_pouf_pillows{
-        position: absolute;
-        left: 1000px;
-        top:620px;
+        position: relative;
+        right: -30%;
+        bottom: 140%;
+
     }
 
     .sectiona-text{
@@ -103,10 +144,31 @@ homepage-layout {
 
     .sectionb-text{
         text-align: left;
+        margin-top:10%;
     }
 
     .sectionc-text{
-        margin-top: -10%;
+        margin-top: 10%;
+        font-size: xx-large;
+    }
+
+    .sectionb-caption {
+        font-size: large;
+        text-align: left;
+        position: relative;
+        left: 700px;
+
+    }
+
+    .sectiond {
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        font-size: x-large;
+        text-align: center;
+        min-width: auto;
+        max-width: auto;
+        min-height: auto;
+        max-height: auto;
     }
 
 
@@ -115,5 +177,45 @@ header a {
     text-decoration: none;
     margin: 80px;
     font-size: 20px;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
     
+}
+
+.Product_Browsing_Section{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+    width: auto;
+    height: 300px;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Product_Browsing_Title{
+    position: relative; 
+    right: 35%; 
+    top: 40%; 
+
+}
+
+.Product_Browsing_Image{
+    position:relative; 
+    right: 20%; 
+    top: 10%; 
+
+}
+
+.Product_Browsing_Caption{
+    position: relative;
+    text-align: left; 
+    left: 40%; 
+    top: -50%;
+    font-size: x-large; 
+    width: 60%;
 }
