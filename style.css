@@ -208,7 +208,6 @@ header a {
     position:relative; 
     right: 20%; 
     top: 10%; 
-
 }
 
 .Product_Browsing_Caption{
@@ -218,4 +217,82 @@ header a {
     top: -50%;
     font-size: x-large; 
     width: 60%;
+}
+
+.Couch_Pillow_Detail{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+    width: auto;
+    height: 1000px;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Couch_Pillow_Title{
+    position: relative; 
+    right: 35%; 
+    top: 5%; 
+    font-size: xx-large;
+    margin-top: 5%;
+}
+
+.Couch_Pillow_Image{
+    position: relative; 
+    right: 35%; 
+    top: 10%;  
+}
+
+.Couch_Pillow_Caption{
+    position: relative;
+    text-align: left; 
+    left: 5%; 
+    top: 20%;
+    font-size: large; 
+    width: 25%;
+}
+
+.Customization_Section{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+
+.Customization_Section .Customization_Title{
+    position:relative; 
+    top: 5%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Customization_Section .Customization_Option{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size:large;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
 }
