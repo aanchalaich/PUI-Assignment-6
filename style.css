@@ -3,7 +3,7 @@
 body{
     margin: 0;
     color: teal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', serif;
     min-width: auto;
     max-width: auto;
     min-height: auto;
@@ -204,6 +204,13 @@ header a {
 
 }
 
+.Product_Browsing_{
+    position: relative; 
+    right: 35%; 
+    top: 40%; 
+
+}
+
 .Product_Browsing_Image{
     position:relative; 
     right: 20%; 
@@ -220,7 +227,7 @@ header a {
 }
 
 .Couch_Pillow_Detail{
-    background-color: #eeeeee;
+    background-color: #ffffff;
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
@@ -249,15 +256,14 @@ header a {
 .Couch_Pillow_Caption{
     position: relative;
     text-align: left; 
-    left: 5%; 
+    left: 3%; 
     top: 20%;
     font-size: large; 
     width: 25%;
 }
 
 .Customization_Section{
-    background-color: #eeeeee;
-    border: 1px solid #cccccc;
+    background-color: #ffffff;
     font-size: x-large;
     text-align: center;
     width: 30%;
@@ -274,7 +280,7 @@ header a {
 
 .Customization_Section .Customization_Title{
     position:relative; 
-    top: 5%;
+    top: 1%;
     min-width: auto;
     max-width: auto;
     min-height: auto;
@@ -282,9 +288,8 @@ header a {
 }
 
 .Customization_Section .Customization_Option{
-    background-color: #eeeeee;
-    border: 1px solid #cccccc;
-    font-size:large;
+    background-color: #ffffff;
+    font-size:small;
     text-align: left;
     width: 80%;
     height: 10%;
@@ -295,4 +300,150 @@ header a {
     max-width: auto;
     min-height: auto;
     max-height: auto;
+}
+
+.Customization_Section .Customization_Option .Customization_Option_Text{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.Customization_Section .Customization_Option .Customization_Option_Image{
+    position: relative; 
+    left: 45%; 
+    bottom: 65%; 
+    width: 60%;
+    height: 62%;
+}
+
+.Reviews_Section{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-size: small;
+    text-align: center;
+    width: 35%;
+    height: 40%;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Reviews_Section .Reviews_Title{
+    position:relative;
+    font-size: x-large; 
+    top: 1%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+.Reviews_Section .Reviews_Option{
+    background-color: #ffffff;
+    font-size: medium;
+    text-align: left;
+    width: 85%;
+    height: 10%;
+    position: relative;
+    top: 10%;
+    left: 4%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Reviews_Section .Reviews_Option_Text{
+    text-align: left;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 60%;
+}
+
+.Reviews_Section .Reviews_Option_Image{
+    position: relative; 
+    left: 5%; 
+    bottom: 85%; 
+}
+
+.Order_Section{
+    background-color: #eeeeee;
+    border-radius: 15px;
+
+    font-size: large;
+    text-align: center;
+    width: 35%;
+    height: 40%;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Order_Section .Quantity_Option{
+    background-color: #eeeeee;
+    font-size: x-large;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Order_Section .Location_Option{
+    background-color: #eeeeee;
+    font-size: x-large;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Reviews_Section .Add_Cart_Option{
+    background-color: #eeeeee;
+    border: 1px #000000;
+    font-size: small;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+.Quantity_Image{
+    position: relative; 
+    left: 0%; 
+    top: 11%; 
+}
+.Location_Image{
+    position: relative; 
+    left: 0%; 
+    top: 20%; 
+}
+.Add_Cart_Image{
+    position: relative; 
+    left: 5%; 
+    bottom: 90%; 
 }
