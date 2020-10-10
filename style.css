@@ -80,19 +80,19 @@ p{
     }
 
 
-    .pillowimage1{
+    .Limited_Edition .pillowimage1{
         position: relative;
         right: 30%;
         bottom: 25%;
     }
     
-    .pillowimage2{
+    .Limited_Edition .pillowimage2{
         position: relative;
         right: 0%;
         bottom: 75%;
     }
 
-    .pillowimage3{
+    .Limited_Edition .pillowimage3{
         position: relative;
         right: -30%;
         bottom: 125%;
