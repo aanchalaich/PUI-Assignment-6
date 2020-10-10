@@ -6,9 +6,15 @@
 	<title>Home Page</title>
 		<meta charset="UTF-8">
     </head>
-    <body>
+    <body class="wrapper">
 		<header>
-			<h1>Fluff Stuff</h1>
+			<div class="login_icon"><img src="loginInformation.png" alt="Login Icon" width="50" height="70" ></div>
+			<div class="shopping_cart_icon"><img src="shoppingCartIcon.png" alt="Login Icon" width="90" height="80" ></div>
+			<h1 >
+				<a href="HomePage.html"><img src="Logo.png" alt="Login Icon" width="350" height="90" style="z-index: 1000; position: relative; margin-right: 150%"></a>
+			</h1>
+			<div class="pillow_icon"><img src="pillowIcon.png" alt="Login Icon" width="150" height="120" ></div>
+			<div class="slogan"><img src="slogan.png" alt="Login Icon" width="400" height="30" ></div>
 			<nav>
                 <a href="productBrowsingPage.html">Products</a>
                 <a href="about.html">About</a>
@@ -16,15 +22,21 @@
                 <a href="careers.html">Careers</a>
                 <a href="contact.html">Contact</a>
 			</nav>
-        </header>
+		</header>
         
+        <div class="Product_Browsing_Section" style="height: 10%; background-color: #ffffff;">
+            
+            <p style="position: relative; text-align: center; margin-right: 80%" > 
+                <a href="productBrowsingPage.html">Products</a> <a href="couchPillow.html">> Couch Pillows</a>
+            </p>
+        </div>
         
         <div class="Couch_Pillow_Detail">
             <div class="Couch_Pillow_Title"> 
                 Couch Pillows
             </div>
             <div class="Couch_Pillow_Image">
-                <img src="couch pillow.png" alt="picture of pillow" width="300px" height="300px" >
+                <img src="couch_pillow.png" alt="picture of pillow" width="300" height="300" >
             </div>
             <div class="Couch_Pillow_Caption"> 
                 Couch pillows are small, decorative soft furnishing items made from a wide range of textiles including cotton, linen, 
@@ -39,7 +51,7 @@
                 After-School Special
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="after_school_special.png" alt="picture of color" width="75%" height="160%">
+                        <img src="after_school_special.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
                 <div class="Customization_Option" style="position: relative; top: 20%; left: 10%" > 
@@ -47,7 +59,7 @@
                     Cozy Denim
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="cozy_denim.png" alt="picture of color" width="75%" height="160%">
+                        <img src="cozy_denim.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
                 <div class="Customization_Option" style="position: relative; top: 30%; left: 10%" > 
@@ -55,7 +67,7 @@
                     Rainy Day
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="rainy_day.png" alt="picture of color" width="75%" height="160%">
+                        <img src="rainy_day.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
                 <div class="Customization_Option" style="position: relative; top: 40%; left: 10%" > 
@@ -63,7 +75,7 @@
                     Morning Haze
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="morning_haze.png" alt="picture of color" width="75%" height="160%">
+                        <img src="morning_haze.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
             </div>
@@ -76,7 +88,7 @@
                     Hypoallergenic Poly Blend
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="hypo_poly_blend.png" alt="picture of color" width="75%" height="160%">
+                        <img src="hypo_poly_blend.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
                 <div class="Customization_Option" style="position: relative; top: 20%; left: 10%" > 
@@ -84,7 +96,7 @@
                     Memory Foam
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="memory_foam.png" alt="picture of color" width="75%" height="160%">
+                        <img src="memory_foam.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
                 <div class="Customization_Option" style="position: relative; top: 30%; left: 10%" > 
@@ -92,7 +104,7 @@
                     Duck Down
                     </div>
                     <div class="Customization_Option_Image">
-                        <img src="duck_down.png" alt="picture of color" width="75%" height="160%">
+                        <img src="duck_down.png" alt="picture of color" style="width:75%; height:160%">
                     </div>
                 </div>
             </div>
@@ -105,7 +117,7 @@
                     “Best pillows I have ever bought!  Completely transformed my home!”                
                 </div>
                 <div class="Reviews_Option_Image">
-                    <img src="five_stars.png" alt="picture of color" width= "120px" height="25px">
+                    <img src="five_stars.png" alt="picture of color" width= "120" height="25">
                 </div>
                 </div>
                 <div class="Reviews_Option">
@@ -113,7 +125,7 @@
                     “Great pillows, great customer service, and great prices.”                
                 </div>
                 <div class="Reviews_Option_Image">
-                    <img src="five_stars.png" alt="picture of color" width= "120px" height="25px">
+                    <img src="five_stars.png" alt="picture of color" width= "120" height="25">
                 </div>
                 </div>
                 <div class="Reviews_Option">
@@ -121,29 +133,28 @@
                     “A+ quality pillows - and shipped very fast too!”                
                 </div>
                 <div class="Reviews_Option_Image">
-                    <img src="five_stars.png" alt="picture of color" width= "120px" height="25px">
+                    <img src="five_stars.png" alt="picture of color" width= "120" height="25">
                 </div>
                 </div>
             </div>
             <div class="Order_Section" style="position: relative; bottom: 125%; left: 61%">
-                <div class="Quantity_Option" style="position: relative; top: 20%; right: 30%"> 
+                <div class="Quantity_Option" style="position: relative; top: 10%; right: 30%"> 
                 Quantity
                 </div>
                 <div class="Quantity_Image">
-                    <img src="Quantity.png" alt="picture of color" width= "120px" height="25px" style="position: relative; top: 40%; left: 10%">
+                    <img src="Quantity.png" alt="picture of color" width= "185" height="50" style="position: relative; top: 40%; left: 10%">
                 </div>
-                <div class="Location_Option" style="position: relative; top: 30%; right: 30%" > 
+                <div class="Location_Option" style="position: relative; top: 20%; right: 30%" > 
                     Location
                 </div>
                 <div class="Location_Image">
-                    <img src="Location.png" alt="picture of color" width= "150px" height="90px" style="position: relative; top: 20%; left: 10%">
+                    <img src="Location.png" alt="picture of color" width= "195" height="110" style="position: relative; top: 20%; left: 10%">
                 </div>
-                <div class="Add_Cart_Image" style="position: relative; top: 25%; left: -5%">
-                    <img src="Shopping Cart.png" alt="picture of color" width= "300px" height="80px">
+                <div class="Add_Cart_Image" style="position: relative; top: 12%; left: -1%">
+                    <img src="add_to_cart.png" alt="picture of color" width= "300" height="80">
                 </div>
             </div>
         </div>
 
-        </body>
-	</body>
+    </body>
 </html>
