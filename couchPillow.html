@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
 		<!--styles-->
 		<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Home Page</title>
 		<meta charset="UTF-8">
     </head>
+
+
     <body class="wrapper">
-		<header>
-			<div class="login_icon"><img src="loginInformation.png" alt="Login Icon" width="50" height="70" ></div>
-			<div class="shopping_cart_icon"><img src="shoppingCartIcon.png" alt="Login Icon" width="90" height="80" ></div>
-			<h1 >
-				<a href="HomePage.html"><img src="Logo.png" alt="Login Icon" width="350" height="90" style="z-index: 1000; position: relative; margin-right: 150%"></a>
-			</h1>
-			<div class="pillow_icon"><img src="pillowIcon.png" alt="Login Icon" width="150" height="120" ></div>
-			<div class="slogan"><img src="slogan.png" alt="Login Icon" width="400" height="30" ></div>
+        
+        <!--Header (Logo, search bar, login, shopping cart, nav bar)-->
+        <header>
+			<div class="flex_container">
+				<h1 >
+					<a href="HomePage.html"><img src="Logo.png" alt="Login Icon" width="350" height="90" style="z-index: 1000"></a>
+				</h1>
+				<div class="pillow_icon" style="position: relative; right: 5%">
+					<img src="pillowIcon.png" alt="Login Icon" width="150" height="120" >
+				</div>
+				<div class="search_bar">
+					<img src="search_bar.png" alt="Login Icon" width="800" height="120" >
+				</div>
+				<div class="login_icon" style="position: relative; left: 5%">
+					<img src="loginInformation.png" alt="Login Icon" width="50" height="75" >
+				</div>
+				<div class="shopping_cart_icon">
+					<img src="shoppingCartIcon.png" alt="Login Icon" width="90" height="80" >
+				</div>
+			</div>
 			<nav>
-                <a href="productBrowsingPage.html">Products</a>
-                <a href="about.html">About</a>
-                <a href="our-history.html">Our History</a>
-                <a href="careers.html">Careers</a>
-                <a href="contact.html">Contact</a>
+				<a href="productBrowsingPage.html">Products</a>
+				<a href="about.html">About</a>
+				<a href="our-history.html">Our History</a>
+				<a href="careers.html">Careers</a>
+				<a href="contact.html">Contact</a>
 			</nav>
 		</header>
         
+        <!--Website Page Bar-->
         <div class="Product_Browsing_Section" style="height: 10%; background-color: #ffffff;">
-            
             <p style="position: relative; text-align: center; margin-right: 80%" > 
                 <a href="productBrowsingPage.html">Products</a> <a href="couchPillow.html">> Couch Pillows</a>
             </p>
         </div>
-        
+
+        <!--Couch Pillow Section-->
         <div class="Couch_Pillow_Detail">
             <div class="Couch_Pillow_Title"> 
                 Couch Pillows
@@ -42,6 +58,8 @@
                 Couch pillows are small, decorative soft furnishing items made from a wide range of textiles including cotton, linen, 
                 silk, leather, microfibre, suede, chenille, and velvet.  Couch pillows are usually (loosely) placed on sofas or armchairs but are also frequently used on beds, day beds and floors.
             </div>
+
+            <!--Customization Section: Colors-->
             <div class="Customization_Section">
                 <div class="Customization_Title"> 
                 Colors
@@ -79,6 +97,8 @@
                     </div>
                 </div>
             </div>
+
+            <!--Customization Section: Materials-->
             <div class="Customization_Section" style="position: relative; bottom: 45%; left: 30%">
                 <div class="Customization_Title"> 
                 Materials
@@ -108,6 +128,8 @@
                     </div>
                 </div>
             </div>
+
+            <!--Reviews Section-->
             <div class="Reviews_Section" style="position: relative; bottom: 130.45%; left: 61%">
                 <div class="Reviews_Title"> 
                 Reviews
@@ -137,6 +159,8 @@
                 </div>
                 </div>
             </div>
+
+            <!--Make an order Section-->
             <div class="Order_Section" style="position: relative; bottom: 125%; left: 61%">
                 <div class="Quantity_Option" style="position: relative; top: 10%; right: 30%"> 
                 Quantity

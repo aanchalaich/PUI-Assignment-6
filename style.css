@@ -1,23 +1,20 @@
+/**************Wrapper*********/
 .wrapper {
     margin-left:1px;
     margin-right:1px;
     width:1900px;
 }
 
+/**************Body*********/
 body{
-
-  
     margin: 0;
-
     color: teal;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     height:100%;
     width:100%;
 }
 
-/**************HEADER*********/
-
-
+/**************Header*********/
 
 header {
 text-align: center;
@@ -27,58 +24,41 @@ background-color: teal;
 color: white;
 }
 
-a:hover{
-        color:black;
-}
-
-
-h1{
-    margin:1%;
-    padding: 5px;
-    text-align: left;
-    width: auto;
-    height: auto;
-    position: relative;
-    margin-top: -3%;
-}
-
-p{
-    font-size: large;
-    text-align: center;  
-}
-
-
-.login_icon{
-    position: relative;
-    margin-left: 85%;
-    margin-top: 0%;
-}
-
-.shopping_cart_icon{
-    position: relative;
-    margin-left: 95%;
-    margin-top: -4%;
-}
-
-.pillow_icon{
-    position: relative;
-    margin-top: -7%;
-    margin-left: -40%;
-}
-
-.slogan{
-    position: relative;
-    margin-top: 0.5%;
-    margin-right:70%;
-}
-
 nav{
     position: relative;
     margin-top: 1%;
     font-size: large;
 }
 
-/************LISTS************/
+.flex_container { 
+    display: flex;
+  } 
+
+.flex_container > div { 
+    width: 50%; 
+    justify-content: baseline;
+  } 
+
+  header a {
+    color: gold;
+    text-decoration: none;
+    margin: 80px;
+    font-size: 20px;
+}
+
+  /**************Hover*********/
+a:hover{
+        color:black;
+}
+
+/**************Paragraph*********/
+p{
+    font-size: large;
+    text-align: center;  
+}
+
+
+/************Homepage Sections************/
 
 .Welcome {
     background-color: #eeeeee;
@@ -159,7 +139,8 @@ nav{
 
     }
 
-    
+    /************Product Browsing Page Sections************/
+
 
     .sectiona-text{
         text-align: center;
@@ -191,13 +172,6 @@ nav{
     }
 
 
-header a {
-    color: gold;
-    text-decoration: none;
-    margin: 80px;
-    font-size: 20px;
-}
-
 .Product_Browsing_Section{
     background-color: #eeeeee;
     border: 1px solid #cccccc;
@@ -211,13 +185,6 @@ header a {
     position: relative; 
     right: 35%; 
     top: 50%; 
-
-}
-
-.Product_Browsing_{
-    position: relative; 
-    right: 35%; 
-    top: 40%; 
 
 }
 
@@ -245,6 +212,13 @@ header a {
     height: 1000px;
 }
 
+
+/************Product Detail Page Sections (Couch Pillow)************/
+
+
+/************Details About Product (Title, Image, Description)************/
+
+
 .Couch_Pillow_Title{
     position: relative; 
     right: 35%; 
@@ -267,6 +241,8 @@ header a {
     font-size: large; 
     width: 25%;
 }
+
+/************Customization Sections (Colors and Materials)************/
 
 .Customization_Section{
     background-color: #ffffff;
@@ -309,6 +285,8 @@ header a {
     height: 62%;
 }
 
+/************Reviews Sections (Colors and Materials)************/
+
 .Reviews_Section{
     background-color: #ffffff;
     border: 1px solid #000000;
@@ -350,6 +328,9 @@ header a {
     left: 5%; 
     bottom: 85%; 
 }
+
+
+/************Order Section (Quantity, Location, Add to Cart Options)************/
 
 .Order_Section{
     background-color: #eeeeee;
