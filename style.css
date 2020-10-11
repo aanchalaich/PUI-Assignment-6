@@ -7,7 +7,11 @@
 
 /**************Body*********/
 body{
+    width: 100%;
+    height: 100%;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     color: teal;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     height:100%;
@@ -40,10 +44,30 @@ nav{
   } 
 
   header a {
-    color: gold;
+    color: white;
     text-decoration: none;
     margin: 80px;
     font-size: 20px;
+}
+
+#pillow_icon{
+    position: relative; 
+    right: 5%;
+}
+
+#search_bar{
+    position: relative; 
+    left: 5%;
+}
+
+#login_icon{
+    position: relative; 
+    left: 9%;
+}
+
+#shopping_cart_icon{
+    position: relative; 
+    left: 3%;
 }
 
   /**************Hover*********/
@@ -58,41 +82,53 @@ p{
 }
 
 
+#website_page_tracker{
+    height: 10%; 
+    background-color: #ffffff;
+}
+
 /************Homepage Sections************/
 
-.Welcome {
+#welcome {
     background-color: #eeeeee;
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
-    width: auto;
     height: 420px;
 }
 
+#welcome_text {
+    text-align: center; 
+    font-size: 200%; 
+    position: relative; 
+    margin-top: 5%; 
+    margin-left: 10%; 
+    width: 80%
+}
 
-.Limited_Edition {
-    background-color: #ffffff;
+
+.homepage_section{
+    background-color: #eeeeee;
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
-    width: auto;
     height: 420px;
     }
 
 
-    .Limited_Edition .pillowimage1{
+    .homepage_section .pillowimage1{
         position: relative;
         right: 30%;
         bottom: 25%;
     }
     
-    .Limited_Edition .pillowimage2{
+    .homepage_section .pillowimage2{
         position: relative;
         right: 0%;
         bottom: 75%;
     }
 
-    .Limited_Edition .pillowimage3{
+    .homepage_section .pillowimage3{
         position: relative;
         right: -30%;
         bottom: 125%;
@@ -100,17 +136,16 @@ p{
     }
 
 
-.Browse_Collection {
-    background-color: #eeeeee;
+.homepage_section {
+    background-color: #ffffff;
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
-    width: auto;
     height: 420px;   
 }
 
 
-    .Browse_Collection .couch_pillows{
+    #couch_pillows_image{
         position: relative;
         right: 30%;
         bottom: 20%;
@@ -118,26 +153,63 @@ p{
 
     }
 
-    .Browse_Collection .bed_pillows{
+    #bed_pillows_image{
         position: relative;
         right: 10%;
         bottom: 82%;
 
     }
 
-    .Browse_Collection .round_pillows{
+    #round_pillows_image{
         position: relative;
         right: -10%;
         bottom: 146%;
 
     }
 
-    .Browse_Collection .floor_pouf_pillows{
+    #floor_pouf_pillows_image{
         position: relative;
         right: -30%;
         bottom: 210%;
 
     }
+
+    #couch_pillows_caption{
+        text-align: center; 
+        position: relative; 
+        bottom: 20%; 
+        right: 20%; 
+        width: 80%; 
+        z-index: 2000;
+    }
+
+    #bed_pillows_caption{
+        text-align: center; 
+        position: relative; 
+        bottom: 83%; 
+        left: 0%; 
+        width: 80%; 
+        z-index: 1000;
+    }
+
+    #round_pillows_caption{
+        text-align: center; 
+        position: relative; 
+        bottom: 147%; 
+        left: 20%; 
+        width: 80%; 
+        z-index: 1000;
+    }
+
+    #floor_pouf_pillows_caption{
+        text-align: center; 
+        position: relative; 
+        bottom: 211%; 
+        left: 40%; 
+        width: 80%; 
+        z-index: 1000;
+    }
+
 
     /************Product Browsing Page Sections************/
 
@@ -151,9 +223,15 @@ p{
         margin-top:10%;
     }
 
-    .sectionc-text{
+    #sectionc-text{
         margin-top: 10%;
         font-size: xx-large;
+        text-align: center; 
+        font-size: xx-large; 
+        position: relative; 
+        bottom: 35%; 
+        left: 10%; 
+        width: 80%;
     }
 
     .sectionb-caption {
@@ -244,7 +322,7 @@ p{
 
 /************Customization Sections (Colors and Materials)************/
 
-.Customization_Section{
+#Customization_Section_Colors{
     background-color: #ffffff;
     font-size: x-large;
     text-align: center;
@@ -255,13 +333,24 @@ p{
     left: 30%;
 }
 
+#Customization_Section_Materials{
+    background-color: #ffffff;
+    font-size: x-large;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    position: relative; 
+    bottom: 45%; 
+    left: 30%
+}
 
-.Customization_Section .Customization_Title{
+
+.Customization_Title{
     position:relative; 
     top: 1%;
 }
 
-.Customization_Section .Customization_Option{
+.Customization_Option_One{
     background-color: #ffffff;
     font-size:small;
     text-align: left;
@@ -272,12 +361,70 @@ p{
     left: 10%;
 }
 
-.Customization_Section .Customization_Option .Customization_Option_Text{
+.Customization_Option_Two{
+    background-color: #ffffff;
+    font-size:small;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative; 
+    top: 20%; 
+    left: 10%;
+}
+
+.Customization_Option_Three{
+    background-color: #ffffff;
+    font-size:small;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative; 
+    top: 30%; 
+    left: 10%;
+}
+
+.Customization_Option_Four{
+    background-color: #ffffff;
+    font-size:small;
+    text-align: left;
+    width: 80%;
+    height: 10%;
+    position: relative; 
+    top: 40%; 
+    left: 10%;
+
+}
+
+.Customization_Option .Customization_Option_Text{
     margin-top: 2%;
     margin-left: 2%;
 }
 
-.Customization_Section .Customization_Option .Customization_Option_Image{
+.Customization_Option_One .Customization_Option_Image{
+    position: relative; 
+    left: 45%; 
+    bottom: 65%; 
+    width: 60%;
+    height: 62%;
+}
+
+.Customization_Option_Two .Customization_Option_Image{
+    position: relative; 
+    left: 45%; 
+    bottom: 65%; 
+    width: 60%;
+    height: 62%;
+}
+
+.Customization_Option_Three .Customization_Option_Image{
+    position: relative; 
+    left: 45%; 
+    bottom: 65%; 
+    width: 60%;
+    height: 62%;
+}
+
+.Customization_Option_Four .Customization_Option_Image{
     position: relative; 
     left: 45%; 
     bottom: 65%; 
@@ -287,7 +434,7 @@ p{
 
 /************Reviews Sections (Colors and Materials)************/
 
-.Reviews_Section{
+#Reviews_Section{
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 15px;
@@ -295,17 +442,17 @@ p{
     text-align: center;
     width: 35%;
     height: 40%;
-    position: relative;
-    bottom: 50%;
-    left: 30%;
+    position: relative; 
+    bottom: 130.45%; 
+    left: 61%;
 }
 
-.Reviews_Section .Reviews_Title{
+#Reviews_Section .Reviews_Title{
     position:relative;
     font-size: x-large; 
     top: 1%;
 }
-.Reviews_Section .Reviews_Option{
+#Reviews_Section .Reviews_Option{
     background-color: #ffffff;
     font-size: medium;
     text-align: left;
@@ -316,14 +463,17 @@ p{
     left: 4%;
 }
 
-.Reviews_Section .Reviews_Option_Text{
-    text-align: left;
+#Reviews_Section .Reviews_Option_Text{
     margin-top: 10%;
     margin-right: 5%;
-    width: 60%;
+    width: 60%; 
+    position: relative; 
+    top: 5%; 
+    left: 50%; 
+    text-align: left
 }
 
-.Reviews_Section .Reviews_Option_Image{
+#Reviews_Section .Reviews_Option_Image{
     position: relative; 
     left: 5%; 
     bottom: 85%; 
@@ -391,6 +541,6 @@ p{
 }
 .Add_Cart_Image{
     position: relative; 
-    left: 7%; 
-    bottom: 90%; 
+    top: 12%; 
+    left: -1%;
 }
