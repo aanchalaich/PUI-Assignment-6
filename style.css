@@ -310,8 +310,8 @@ p{
     width: 30%;
     height: 40%;
     position: relative;
-    bottom: 50%;
-    left: 30%;
+    bottom: 60%;
+    left: 25%;
 }
 
 #Customization_Section_Materials{
@@ -322,7 +322,7 @@ p{
     height: 40%;
     position: relative; 
     bottom: 45%; 
-    left: 30%
+    left: 25%
 }
 
 
@@ -331,82 +331,56 @@ p{
     top: 1%;
 }
 
-.Customization_Option_One{
-    background-color: #ffffff;
+.Customization_Option{
+    background-color: salmon;
+}
+
+#Customization_Option_One{
     font-size:small;
     text-align: left;
     width: 80%;
-    height: 10%;
+    height: 20%;
     position: relative;
     top: 10%;
     left: 10%;
 }
 
-.Customization_Option_Two{
-    background-color: #ffffff;
+#Customization_Option_Two{
     font-size:small;
     text-align: left;
     width: 80%;
-    height: 10%;
+    height: 20%;
     position: relative; 
     top: 20%; 
     left: 10%;
 }
 
-.Customization_Option_Three{
-    background-color: #ffffff;
+#Customization_Option_Three{
     font-size:small;
     text-align: left;
     width: 80%;
-    height: 10%;
+    height: 20%;
     position: relative; 
     top: 30%; 
     left: 10%;
 }
 
-.Customization_Option_Four{
-    background-color: #ffffff;
+#Customization_Option_Four{
     font-size:small;
     text-align: left;
     width: 80%;
-    height: 10%;
+    height: 20%;
     position: relative; 
     top: 40%; 
     left: 10%;
 
 }
 
-
-.Customization_Option_One .Customization_Option_Image{
+#Customization_Option_Image{
     position: relative; 
-    left: 45%; 
-    bottom: 65%; 
-    width: 60%;
-    height: 62%;
-}
-
-.Customization_Option_Two .Customization_Option_Image{
-    position: relative; 
-    left: 45%; 
-    bottom: 65%; 
-    width: 60%;
-    height: 62%;
-}
-
-.Customization_Option_Three .Customization_Option_Image{
-    position: relative; 
-    left: 45%; 
-    bottom: 65%; 
-    width: 60%;
-    height: 62%;
-}
-
-.Customization_Option_Four .Customization_Option_Image{
-    position: relative; 
-    left: 45%; 
-    bottom: 65%; 
-    width: 60%;
-    height: 62%;
+    left: 35%;    
+    width: 80%;
+    height: 42%;
 }
 
 /************Reviews Sections (Colors and Materials)************/
@@ -522,3 +496,17 @@ p{
     top: 12%; 
     left: -1%;
 }
+
+
+/************Interactive Elements************/
+
+  body {
+      padding: 20px;
+  }
+  button {
+    background: salmon;
+  }
+  button:hover {
+    background: lightsalmon;
+  }
+

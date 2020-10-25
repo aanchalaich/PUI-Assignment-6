@@ -2,6 +2,6 @@
 Assignment 5 - HTML/CSS Prototypes
 
 
-<!--Bonus Points-->
+Bonus Points
 
-<!--Product Detail Pages were added for all items>
+Product Detail Pages were added for all items
