@@ -539,4 +539,13 @@ p{
   button:hover {
     background: #99cccc;
   }
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
 
+    input {
+        position: relative;
+        top: -15%;
+        right: -20%;
+  }
