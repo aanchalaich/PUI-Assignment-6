@@ -332,7 +332,7 @@ p{
 }
 
 .Customization_Option{
-    background-color: salmon;
+    background-color: white;
 }
 
 #Customization_Option_One{
@@ -381,6 +381,36 @@ p{
     left: 35%;    
     width: 80%;
     height: 42%;
+}
+
+#Customization_Option_Five{
+    font-size:small;
+    text-align: left;
+    width: 80%;
+    height: 20%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+#Customization_Option_Six{
+    font-size:small;
+    text-align: left;
+    width: 80%;
+    height: 20%;
+    position: relative; 
+    top: 20%; 
+    left: 10%;
+}
+
+#Customization_Option_Seven{
+    font-size:small;
+    text-align: left;
+    width: 80%;
+    height: 20%;
+    position: relative; 
+    top: 30%; 
+    left: 10%;
 }
 
 /************Reviews Sections (Colors and Materials)************/
@@ -504,9 +534,9 @@ p{
       padding: 20px;
   }
   button {
-    background: #fa8072;
+    background: white;
   }
   button:hover {
-    background: lightsalmon;
+    background: #99cccc;
   }
 
