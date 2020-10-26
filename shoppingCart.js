@@ -1,10 +1,24 @@
 // 1. Create Buttons for All Options
 
+currentColorSelection='Customization_Option_One'
 
- 
+function changeColor(id) {
 
-function changeColor() {
-    alert('hello world');
-    document.getElementById("Customization_Option_One").style.background="#ff0000";
+    let button=document.getElementById(id);
+    
+     button.style.background="#ff0000";
+
+    if (document.getElementById(currentColorSelection) != button) {
+
+        document.getElementById(currentColorSelection).style.background= "#fa8072";
+
+    }
+
+    currentColorSelection=id;
+             
 }
+
+
+
+
 
