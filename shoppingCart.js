@@ -76,6 +76,10 @@ function changeQuantity(value){
     currentQuantity=value;
 }
 
+//counter=document.getElementById("itemCount").innerText;
+previousQuantity=sessionStorage.getItem("previousQuantity") || 0;
+//sessionStorage.setItem("updatedQuantity",JSON.stringify(previousQuantity));
+
 function submitOrder() {
     currentProduct=getProduct();
     let currentOrder = {
@@ -87,12 +91,20 @@ function submitOrder() {
 
     orders.push(currentOrder);
     sessionStorage.setItem("orders",JSON.stringify(orders));
-    window.location.href='shoppingCart.html';
+    //previousQuantity=JSON.parse(sessionStorage.getItem("updatedQuantity"));
+    previousQuantity+=1;
+    sessionStorage.setItem("finalQuantity",previousQuantity)
+    //sessionStorage.removeItem("updatedQuantity");
+    //sessionStorage.setItem("updatedQuantity",JSON.stringify(previousQuantity));
+    //window.location.href='shoppingCart.html';
+
+
+    //quantity=JSON.parse(sessionStorage.getItem('orders'))[0];
     
 
+    //counter=counter+1;
+
 }
-
-
 
 
 

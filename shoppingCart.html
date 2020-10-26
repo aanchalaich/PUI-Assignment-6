@@ -39,12 +39,17 @@
 				<a href="comingSoon.html">Contact</a>
 			</nav>			
 		</header>
-        
+		
+		
+			<script>
+			var items_in_cart=0;
+			</script>
+	
         <!--Website Page Tracker-->
         <div id="website_page_tracker">
             
             <p style="position: relative; text-align: center;" > 
-                <a href="HomePage.html">Home</a> > <a href="shoppingCart.html">Shopping Cart</a>
+                <a href="HomePage.html">Home</a> > <a href="shoppingCart.html">Shopping Cart</a><p id="itemCount">0</p>
             </p>
         </div>
 
@@ -54,9 +59,8 @@
                 <a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200" height="200" ></a>
             </div>
 			<p style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;"><a href="couchPillow.html">Couch Pillows</a></p>
-			<div class="Quantity_Option"> Quantity <input id="number" type="number" value="1" oninput="changeQuantity(this.value)"></div>
+			<div class="Quantity_Option"> Quantity <input id="number" type="number" oninput="changeQuantity(this.value)"> </div>
         </div>
-        
-
+		
     </body>
 </html>
