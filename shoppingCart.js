@@ -87,7 +87,7 @@ function submitOrder() {
 
     orders.push(currentOrder);
     sessionStorage.setItem("orders",JSON.stringify(orders));
-    
+    window.location.href='shoppingCart.html';
     
 
 }
