@@ -527,6 +527,38 @@ p{
     left: -1%;
 }
 
+/************Shopping Cart Page************/
+
+.Quantity_Option{
+    position: relative;
+    bottom:85%;
+}
+
+.Color_Option{
+    position: relative;
+    bottom:75%;
+}
+
+
+.Material_Option{
+    position: relative;
+    bottom:65%;
+}
+
+.Final_Order_Color{
+    position: relative; 
+    left: 67%;  
+    width: 10%;
+    height: 32%;
+}
+
+.Final_Order_Material{
+    position: relative; 
+    left: 67%;  
+    width: 10%;
+    height: 32%;
+}
+
 
 /************Interactive Elements************/
 
