@@ -100,16 +100,20 @@ function submitOrder() {
     sessionStorage.setItem("finalQuantity",previousQuantity);
     //sessionStorage.removeItem("updatedQuantity");
     //sessionStorage.setItem("updatedQuantity",JSON.stringify(previousQuantity));
-    //window.location.href='shoppingCart.html';
-    //document.getElementById('itemCount').innerHTML=JSON.stringify(previousQuantity);
+    window.location.href='shoppingCart.html';
+    
+    }
 
+    window.onload=function() {
+        document.getElementById('itemCount').innerHTML=JSON.stringify(previousQuantity);
+    }
 
     //quantity=JSON.parse(sessionStorage.getItem('orders'))[0];
     
 
     //counter=counter+1;
 
-}
+
 
 
 
