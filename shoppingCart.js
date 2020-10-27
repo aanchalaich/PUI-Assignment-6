@@ -77,7 +77,7 @@ function changeQuantity(value){
 }
 
 //counter=document.getElementById("itemCount").innerText;
-previousQuantity=sessionStorage.getItem("previousQuantity") || 0;
+previousQuantity=JSON.parse(sessionStorage.getItem("finalQuantity")) || 0;
 //sessionStorage.setItem("updatedQuantity",JSON.stringify(previousQuantity));
 
 function submitOrder() {
@@ -92,11 +92,16 @@ function submitOrder() {
     orders.push(currentOrder);
     sessionStorage.setItem("orders",JSON.stringify(orders));
     //previousQuantity=JSON.parse(sessionStorage.getItem("updatedQuantity"));
+
+    if (previousQuantity===null) {
+        previousQuantity=0;
+    }
     previousQuantity+=1;
-    sessionStorage.setItem("finalQuantity",previousQuantity)
+    sessionStorage.setItem("finalQuantity",previousQuantity);
     //sessionStorage.removeItem("updatedQuantity");
     //sessionStorage.setItem("updatedQuantity",JSON.stringify(previousQuantity));
     //window.location.href='shoppingCart.html';
+    //document.getElementById('itemCount').innerHTML=JSON.stringify(previousQuantity);
 
 
     //quantity=JSON.parse(sessionStorage.getItem('orders'))[0];
