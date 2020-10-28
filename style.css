@@ -589,6 +589,18 @@ p{
     left:40%;
 }
 
+#itemCount{
+    margin:0;
+    border:0;
+    font-size: x-large;
+    position: relative;
+    left:23.65%;
+    bottom: 62%;
+    height:10%;
+    width:10%;
+}
+
+
 
 /************Interactive Elements************/
 
