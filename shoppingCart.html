@@ -28,7 +28,7 @@
 					<img src="images/loginInformation.png" alt="Login Icon" width="50" height="70" >
 				</div>
 				<div id="shopping_cart_icon" >
-					<img src="images/shoppingCartIcon.png" alt="Login Icon" width="90" height="75" >
+					<a href="shoppingCart.html"><img src="images/shoppingCartIcon.png" alt="Login Icon" width="90" height="75" ></a>
 				</div>
 			</div>
 			<nav>
@@ -51,7 +51,9 @@
             <p style="position: relative; text-align: center;" > 
                 <a href="HomePage.html">Home</a> > <a href="shoppingCart.html">Shopping Cart</a><p id="itemCount">0</p>
             </p>
-        </div>
+		</div>
+		
+		<img src="images/shopping_cart_header.png" width="750" height="90" style="position: relative; right:5%; top: -5%; z-index: 1000">
 
         <!--Product Browsing Section: Couch Pillows-->
         <div class="Product_Browsing_Section">
@@ -59,9 +61,14 @@
                 <a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200" height="200" ></a>
             </div>
 			<p style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;"><a href="couchPillow.html">Couch Pillows</a></p>
-			<div class="Quantity_Option"> Quantity <input id="number" type="number" oninput="changeQuantity(this.value)"> </div>
-			<div class="Color_Option"> Color <div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color" style="width:75%; height:100%"></div> </div>
-			<div class="Material_Option"> Material  <div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color" style="width:75%; height:100%"></div> </div>
+			<div class="Quantity_Option"> Quantity</div>
+			<div id="shopping_cart_number"><input  type="number" oninput="changeQuantity(this.value)"></div>
+			<div class="Color_Option"> Color </div>
+			<div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color" style="width:75%; height:100%"></div>
+			<div class="Edit_Option"><img src="images/edit_option.png" alt="picture of color" style="width:10%; height:10%"></div>
+			<div class="Material_Option"> Material</div>
+			<div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color" style="width:75%; height:100%"></div>
+			<div class="Remove_Option"><img src="images/remove_option.png" alt="picture of color" style="width:10%; height:10%"></div>
 		</div>
 		
 		<!--Product Browsing Section: Couch Pillows-->
@@ -70,10 +77,15 @@
                 <a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200" height="200" ></a>
             </div>
 			<p style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;"><a href="couchPillow.html">Couch Pillows</a></p>
-			<div class="Quantity_Option"> Quantity <input id="number" type="number" oninput="changeQuantity(this.value)"> </div>
-			<div class="Color_Option"> Color <div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color" style="width:75%; height:100%"></div> </div>
-			<div class="Material_Option"> Material  <div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color" style="width:75%; height:100%"></div> </div>
-        </div>
+			<div class="Quantity_Option"> Quantity</div>
+			<div id="shopping_cart_number"><input  type="number" oninput="changeQuantity(this.value)"></div>
+			<div class="Color_Option"> Color </div>
+			<div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color" style="width:75%; height:100%"></div>
+			<div class="Edit_Option"><img src="images/edit_option.png" alt="picture of color" style="width:10%; height:10%"></div>
+			<div class="Material_Option"> Material</div>
+			<div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color" style="width:75%; height:100%"></div>
+			<div class="Remove_Option"><img src="images/remove_option.png" alt="picture of color" style="width:10%; height:10%"></div>
+		</div>
 		
     </body>
 </html>

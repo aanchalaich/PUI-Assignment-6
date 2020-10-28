@@ -529,9 +529,16 @@ p{
 
 /************Shopping Cart Page************/
 
+
+#shopping_cart_number{
+    position: relative;
+    bottom:95%;
+    left: 2%;
+}
+
 .Quantity_Option{
     position: relative;
-    bottom:85%;
+    bottom:82%;
 }
 
 .Color_Option{
@@ -542,21 +549,44 @@ p{
 
 .Material_Option{
     position: relative;
-    bottom:65%;
+    bottom:85%;
 }
 
 .Final_Order_Color{
     position: relative; 
     left: 67%;  
     width: 10%;
-    height: 32%;
+    height: 15%;
+    bottom:90%;
 }
 
 .Final_Order_Material{
     position: relative; 
     left: 67%;  
     width: 10%;
-    height: 32%;
+    height: 15%;
+    bottom: 100%;
+}
+
+.Shopping_Cart_Section{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+    width: auto;
+    height: 300px;
+}
+
+.Edit_Option{
+    position: relative;
+    bottom:105%;
+    left:40%;
+}
+
+.Remove_Option{
+    position: relative;
+    bottom:110%;
+    left:40%;
 }
 
 
