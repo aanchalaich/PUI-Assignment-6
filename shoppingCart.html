@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<!--styles-->
-        <link rel="stylesheet" type="text/css" href="style.css">
-        
-        <!--javascript-->
-        <script src="shoppingCart.js"></script>
-        
-	<title>Shopping Cart Page</title>
-		<meta charset="UTF-8">
-    </head>
-    <body class="wrapper">
 
-        <!--Header (Logo, search bar, login, shopping cart, nav bar)-->
-		<header>
-			<div class="flex_container">
-				<h1 >
-					<a href="HomePage.html"><img src="images/Logo.png" alt="Login Icon" width="350" height="90" style="z-index: 1000"></a>
-				</h1>
-				<div id="pillow_icon">
-					<img src="images/pillowIcon.png" alt="Login Icon" width="150" height="120" >
-				</div>
-				<div id="search_bar">
-					<img src="images/search_bar.png" alt="Login Icon" width="800" height="120" >
-				</div>
-				<div id="login_icon">
-					<img src="images/loginInformation.png" alt="Login Icon" width="50" height="70" >
-				</div>
-				<div id="shopping_cart_icon" >
-					<a href="shoppingCart.html"><img src="images/shoppingCartIcon.png" alt="Login Icon" width="90" height="75" ></a>
-				</div>
+<head>
+	<!--styles-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--javascript-->
+	<script src="shoppingCart.js"></script>
+
+	<title>Shopping Cart Page</title>
+	<meta charset="UTF-8">
+</head>
+
+<body class="wrapper">
+
+	<!--Header (Logo, search bar, login, shopping cart, nav bar)-->
+	<header>
+		<div class="flex_container">
+			<h1>
+				<a href="HomePage.html"><img src="images/Logo.png" alt="Login Icon" width="350" height="90"
+						style="z-index: 1000"></a>
+			</h1>
+			<div id="pillow_icon">
+				<img src="images/pillowIcon.png" alt="Login Icon" width="150" height="120">
 			</div>
-			<nav>
-				<a href="productBrowsingPage.html">Products</a>
-				<a href="comingSoon.html">About</a>
-				<a href="comingSoon.html">Our History</a>
-				<a href="comingSoon.html">Careers</a>
-				<a href="comingSoon.html">Contact</a>
-			</nav>			
-		</header>
-		
-		
-			<script>
-			var items_in_cart=0;
-			</script>
-	
-        <!--Website Page Tracker-->
-        <div id="website_page_tracker">
-            
-            <p style="position: relative; text-align: center;" > 
-                <a href="HomePage.html">Home</a> > <a href="shoppingCart.html">Shopping Cart</a>
-            </p>
+			<div id="search_bar">
+				<img src="images/search_bar.png" alt="Login Icon" width="800" height="120">
+			</div>
+			<div id="login_icon">
+				<img src="images/loginInformation.png" alt="Login Icon" width="50" height="70">
+			</div>
+			<div id="shopping_cart_icon">
+				<a href="shoppingCart.html"><img src="images/shoppingCartIcon.png" alt="Login Icon" width="90"
+						height="75"></a>
+			</div>
 		</div>
-		<p id="itemCount">0</p>
-		<img src="images/shopping_cart_header.png" width="700" height="70" style="position: relative">
-		<img src="images/proceed_to_checkout.png" width="300" height="70" style="position: relative; left: 40%">
-		
-        <!--Product Browsing Section: Couch Pillows-->
-        <div class="Product_Browsing_Section">
-            <div class="Product_Browsing_Image">
-                <a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200" height="200" ></a>
-            </div>
-			<p style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;"><a href="couchPillow.html">Couch Pillows</a></p>
-			<div class="Quantity_Option"> Quantity</div>
-			<div id="shopping_cart_number"><input  type="number" oninput="changeQuantity(this.value)"></div>
-			<div class="Color_Option"> Color </div>
-			<div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color" style="width:75%; height:100%"></div>
-			<div class="Edit_Option"><img src="images/edit_option.png" alt="picture of color" style="width:10%; height:10%"></div>
-			<div class="Material_Option"> Material</div>
-			<div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color" style="width:75%; height:100%"></div>
-			<div class="Remove_Option"><img src="images/remove_option.png" alt="picture of color" style="width:10%; height:10%"></div>
+		<nav>
+			<a href="productBrowsingPage.html">Products</a>
+			<a href="comingSoon.html">About</a>
+			<a href="comingSoon.html">Our History</a>
+			<a href="comingSoon.html">Careers</a>
+			<a href="comingSoon.html">Contact</a>
+		</nav>
+	</header>
+
+
+	<script>
+		var items_in_cart = 0;
+	</script>
+
+	<!--Website Page Tracker-->
+	<div id="website_page_tracker">
+
+		<p style="position: relative; text-align: center;">
+			<a href="HomePage.html">Home</a> > <a href="shoppingCart.html">Shopping Cart</a>
+		</p>
+	</div>
+	<p id="itemCount">0</p>
+	<img src="images/shopping_cart_header.png" width="700" height="70" style="position: relative">
+	<img src="images/proceed_to_checkout.png" width="300" height="70" style="position: relative; left: 40%">
+
+	<!--Product Browsing Section: Couch Pillows-->
+	<div class="Product_Browsing_Section">
+		<div class="Product_Browsing_Image">
+			<a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200"
+					height="200"></a>
 		</div>
-		
-		<!--Product Browsing Section: Couch Pillows-->
-        <div class="Product_Browsing_Section">
-            <div class="Product_Browsing_Image">
-                <a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200" height="200" ></a>
-            </div>
-			<p style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;"><a href="couchPillow.html">Couch Pillows</a></p>
-			<div class="Quantity_Option"> Quantity</div>
-			<div id="shopping_cart_number"><input  type="number" oninput="changeQuantity(this.value)"></div>
-			<div class="Color_Option"> Color </div>
-			<div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color" style="width:75%; height:100%"></div>
-			<div class="Edit_Option"><img src="images/edit_option.png" alt="picture of color" style="width:10%; height:10%"></div>
-			<div class="Material_Option"> Material</div>
-			<div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color" style="width:75%; height:100%"></div>
-			<div class="Remove_Option"><img src="images/remove_option.png" alt="picture of color" style="width:10%; height:10%"></div>
+		<p
+			style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;">
+			<a href="couchPillow.html">Couch Pillows</a></p>
+		<div class="Quantity_Option"> Quantity</div>
+		<div id="shopping_cart_number"><input type="number" oninput="changeQuantity(this.value)"></div>
+		<div class="Color_Option"> Color </div>
+		<div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color"
+				style="width:75%; height:100%"></div>
+		<div class="Edit_Option"><img src="images/edit_option.png" alt="picture of color" style="width:10%; height:10%">
 		</div>
-		
-    </body>
+		<div class="Material_Option"> Material</div>
+		<div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color"
+				style="width:75%; height:100%"></div>
+		<div class="Remove_Option"><img src="images/remove_option.png" alt="picture of color"
+				style="width:10%; height:10%"></div>
+	</div>
+
+	<!--Product Browsing Section: Couch Pillows-->
+	<div class="Product_Browsing_Section">
+		<div class="Product_Browsing_Image">
+			<a href="couchPillow.html"><img src="images/couch_pillow.png" alt="picture of pillow" width="200"
+					height="200"></a>
+		</div>
+		<p
+			style="text-align: center; position: relative; bottom: 70%; right: 25%; width: 80%; font-size: x-large; z-index: 1000;">
+			<a href="couchPillow.html">Couch Pillows</a></p>
+		<div class="Quantity_Option"> Quantity</div>
+		<div id="shopping_cart_number"><input type="number" oninput="changeQuantity(this.value)"></div>
+		<div class="Color_Option"> Color </div>
+		<div class="Final_Order_Color"><img src="images/after_school_special.png" alt="picture of color"
+				style="width:75%; height:100%"></div>
+		<div class="Edit_Option"><img src="images/edit_option.png" alt="picture of color" style="width:10%; height:10%">
+		</div>
+		<div class="Material_Option"> Material</div>
+		<div class="Final_Order_Material"><img src="images/hypo_poly_blend.png" alt="picture of color"
+				style="width:75%; height:100%"></div>
+		<div class="Remove_Option"><img src="images/remove_option.png" alt="picture of color"
+				style="width:10%; height:10%"></div>
+	</div>
+
+</body>
+
 </html>

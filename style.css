@@ -333,54 +333,42 @@ p{
 
 .Customization_Option{
     background-color: white;
-}
-
-#Customization_Option_One{
     font-size:small;
     text-align: left;
     width: 80%;
     height: 20%;
+}
+
+.Customization_Option_Image{
+    position: relative; 
+    left: 35%;    
+    width: 80%;
+    height: 42%;
+}
+
+#Customization_Option_One{
     position: relative;
     top: 10%;
     left: 10%;
 }
 
 #Customization_Option_Two{
-    font-size:small;
-    text-align: left;
-    width: 80%;
-    height: 20%;
     position: relative; 
     top: 20%; 
     left: 10%;
 }
 
 #Customization_Option_Three{
-    font-size:small;
-    text-align: left;
-    width: 80%;
-    height: 20%;
     position: relative; 
     top: 30%; 
     left: 10%;
 }
 
 #Customization_Option_Four{
-    font-size:small;
-    text-align: left;
-    width: 80%;
-    height: 20%;
     position: relative; 
     top: 40%; 
     left: 10%;
 
-}
-
-#Customization_Option_Image{
-    position: relative; 
-    left: 35%;    
-    width: 80%;
-    height: 42%;
 }
 
 #Customization_Option_Five{
