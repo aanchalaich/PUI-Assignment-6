@@ -62,13 +62,15 @@ nav{
 
 #login_icon{
     position: relative; 
-    left: 9%;
+    left: 10%;
 }
 
 #shopping_cart_icon{
     position: relative; 
     left: 3%;
 }
+
+
 
   /**************Hover*********/
 a:hover{
@@ -87,6 +89,34 @@ p{
     height: 10%; 
     background-color: #ffffff;
 }
+
+#search_bar {
+    display: flex;
+  }
+  
+#search_bar input[type=text] {
+    font-size: 17px;
+    border: none;
+    width:700px;
+    height:35px;
+    margin-left: -250px;
+    margin-top:40px;
+  }
+  
+  #search_bar button {
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height:35px;
+    margin-top:20px;
+    margin-left:140px;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
 
 /************Homepage Sections************/
 
@@ -372,30 +402,18 @@ p{
 }
 
 #Customization_Option_Five{
-    font-size:small;
-    text-align: left;
-    width: 80%;
-    height: 20%;
     position: relative;
     top: 10%;
     left: 10%;
 }
 
 #Customization_Option_Six{
-    font-size:small;
-    text-align: left;
-    width: 80%;
-    height: 20%;
     position: relative; 
     top: 20%; 
     left: 10%;
 }
 
 #Customization_Option_Seven{
-    font-size:small;
-    text-align: left;
-    width: 80%;
-    height: 20%;
     position: relative; 
     top: 30%; 
     left: 10%;
