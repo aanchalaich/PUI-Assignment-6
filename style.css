@@ -10,12 +10,8 @@
 body{
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
     color: teal;
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    height:100%;
-    width:100%;
 }
 
 /**************Header*********/
@@ -522,15 +518,13 @@ p{
     left: 10%; 
     top: 1%; 
 }
-.Location_Image{
+.Location_Input{
     position: relative; 
-    left: 10%; 
-    top: 5%; 
+    top: 13%; 
 }
 .Add_Cart_Image{
     position: relative; 
-    top: 12%; 
-    left: -1%;
+    top: 30%; 
 }
 
 /************Shopping Cart Page************/
