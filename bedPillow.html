@@ -27,9 +27,9 @@
                 <img src="images/pillowIcon.png" alt="Login Icon" width="150" height="120">
             </div>
             <div id="search_bar">
-				<input type="text" placeholder="Search..">
-				<button type="submit">Search</button>
-			</div>
+                <input type="text" placeholder="Search..">
+                <button type="submit">Search</button>
+            </div>
             <div id="login_icon">
                 <img src="images/loginInformation.png" alt="Login Icon" width="50" height="70">
             </div>
@@ -48,11 +48,13 @@
     </header>
 
     <!--Website Page Tracker-->
-    <div id="website_page_tracker">
-        <p style="position: relative; text-align: center;">
-            <a href="HomePage.html">Home</a> > <a href="productBrowsingPage.html">Products</a> > <a
-                href="bedPillow.html"> Bed Pillows</a>
-        </p>
+    <div class="flex_container">
+        <div id="website_page_tracker">
+            <p style="position: relative; text-align: center;">
+                <a href="HomePage.html">Home</a> > <a href="productBrowsingPage.html">Products</a> > <a
+                    href="bedPillow.html"> Bed Pillows</a>
+            </p>
+        </div>
     </div>
 
     <!--Bed Pillow Section-->
@@ -135,8 +137,8 @@
             </button>
         </div>
 
-         <!--Make an order Section-->
-         <div class="Order_Section">
+        <!--Make an order Section-->
+        <div class="Order_Section">
             <div class="Quantity_Option" style="position: relative; top: 10%; right: 30%">
                 Quantity <input id="number" type="number" value="1" oninput="changeQuantity(this.value)">
             </div>
@@ -145,7 +147,7 @@
                 Location
             </div>
             <div class="Location_Input">
-                <input type = "text" value = "Address" />
+                <input type="text" value="Address" />
             </div>
             <button class="Add_Cart_Image" onclick="submitOrder()">
                 <img src="images/add_to_cart.png" alt="picture of color" width="300" height="80">
