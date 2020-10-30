@@ -1,29 +1,41 @@
-/**************Wrapper*********/
+/**************Body*********/
 
 
-.wrapper {
-    margin-left:1px;
-    margin-right:1px;
-    width:1900px;
+html{
+    height: auto;
 }
 
-/**************Body*********/
-body{
-    margin:0;
-    padding: 0;
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     width: 100%;
-    height: 100%;
-    overflow-x: auto; 
+    overflow-x: scroll;
     color: teal;
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    height:auto;
+
 }
+
+
+/**************Wrapper*********/
+
+body.wrapper {
+
+    width: 1900px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: auto;
+}
+
+
 
 /**************Header*********/
 
 header {
 text-align: center;
 font-family: 'Comic Sans MS', cursive, sans-serif;
-padding: 10px;
+padding: 20px;
 background-color: teal;
 color: white;
 }
@@ -123,9 +135,10 @@ p{
 #welcome {
     background-color: #eeeeee;
     border: 1px solid #cccccc;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
     height: 420px;
+    margin: 5%;
 }
 
 #welcome_text {
@@ -143,26 +156,27 @@ p{
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
-    height: 420px;
+    height: 620px;
+    width: auto;
+    margin: 5%;
     }
 
 
-    .homepage_section #pillowimage1{
+    #pillowimage1{
         position: relative;
-        right: 30%;
-        bottom: 25%;
+        right: 10%;
+        top: -5%;
     }
     
-    .homepage_section #pillowimage2{
+    #pillowimage2{
         position: relative;
-        right: 0%;
-        bottom: 75%;
+        top: -5%;
     }
 
-    .homepage_section #pillowimage3{
+    #pillowimage3{
         position: relative;
-        right: -30%;
-        bottom: 125%;
+        left: 10%;
+        top: -5%;
 
     }
 
@@ -172,38 +186,39 @@ p{
     border: 1px solid #cccccc;
     font-size: x-large;
     text-align: center;
-    height: 420px;   
+    height: 620px;   
+    width: auto;
 }
 
 
     #couch_pillows_image{
         position: relative;
         right: 30%;
-        bottom: 20%;
+        bottom: 10%;
     }
 
     #bed_pillows_image{
         position: relative;
         right: 10%;
-        bottom: 82%;
+        bottom: 53%;
     }
 
     #round_pillows_image{
         position: relative;
-        right: -10%;
-        bottom: 146%;
+        left: 10%;
+        bottom: 96%;
     }
 
     #floor_pouf_pillows_image{
         position: relative;
-        right: -30%;
-        bottom: 210%;
+        left: 30%;
+        bottom: 140%;
     }
 
     #couch_pillows_caption{
         text-align: center; 
         position: relative; 
-        bottom: 20%; 
+        bottom: 10%; 
         left: 10%; 
         width: 20%; 
         z-index: 2000;
@@ -212,7 +227,7 @@ p{
     #bed_pillows_caption{
         text-align: center; 
         position: relative; 
-        bottom: 83%; 
+        bottom: 53%; 
         left: 30%; 
         width: 20%; 
         z-index: 2000;
@@ -221,7 +236,7 @@ p{
     #round_pillows_caption{
         text-align: center; 
         position: relative; 
-        bottom: 147%; 
+        bottom: 97%; 
         left: 50%; 
         width: 20%; 
         z-index: 2000;
@@ -230,7 +245,7 @@ p{
     #floor_pouf_pillows_caption{
         text-align: center; 
         position: relative; 
-        bottom: 211%; 
+        bottom: 141%; 
         left: 70%; 
         width: 20%; 
         z-index: 2000;
@@ -242,18 +257,20 @@ p{
         text-align: center; 
         font-size: xx-large; 
         position: relative; 
-        bottom: 40%; 
+        bottom: 20%; 
         left: 10%; 
         width: 80%
     }
 
     #browse_collection_text{
         margin-top: 10%;
+        margin-right: 0%;
+        margin left: 0%;
         font-size: xx-large;
         text-align: center; 
         font-size: xx-large; 
         position: relative; 
-        bottom: 35%; 
+        bottom: 25%; 
         left: 10%; 
         width: 80%;
     }
@@ -270,6 +287,7 @@ p{
     text-align: center;
     width: auto;
     height: 300px;
+    margin: 5%;
 }
 
 .Product_Browsing_Title{
@@ -374,6 +392,8 @@ p{
     left: 35%;    
     width: 80%;
     height: 42%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 #Customization_Option_One{
@@ -524,6 +544,7 @@ p{
 }
 .Location_Input{
     position: relative; 
+    left:1%;
     top: 13%; 
 }
 .Add_Cart_Image{
@@ -536,61 +557,71 @@ p{
 
 #shopping_cart_number{
     position: relative;
-    bottom:95%;
-    left: 2%;
+    bottom:105%;
+    right: 5%;
 }
+
 
 .Quantity_Option{
     position: relative;
-    bottom:82%;
+    bottom:92%;
 }
 
 .Color_Option{
     position: relative;
-    bottom:75%;
+    bottom:90%;
 }
 
+.Color_Selected{
+    position: relative;
+    left:60%;
+    z-index: 1000;
+    bottom:105%;
+    width:10%;
+
+}
+
+.Material_Selected{
+    position: relative;
+    left:60%;
+
+    z-index: 1000;
+    bottom:135%;
+    width:10%;
+}
 
 .Material_Option{
     position: relative;
-    bottom:85%;
+    bottom:120%;
 }
 
 .Final_Order_Color{
     position: relative; 
-    left: 67%;  
+    left: 72%;  
     width: 10%;
     height: 15%;
-    bottom:90%;
+    bottom:121%;
 }
 
 .Final_Order_Material{
     position: relative; 
-    left: 67%;  
+    left: 72%;  
     width: 10%;
     height: 15%;
-    bottom: 100%;
+    bottom: 151%;
 }
 
-.Shopping_Cart_Section{
-    background-color: #eeeeee;
-    border: 1px solid #cccccc;
-    font-size: x-large;
-    text-align: center;
-    width: auto;
-    height: 300px;
-}
 
 .Edit_Option{
     position: relative;
-    bottom:105%;
-    left:40%;
+    bottom:135%;
+    left:42%;
 }
 
 .Remove_Option{
     position: relative;
-    bottom:110%;
-    left:40%;
+    bottom:165%;
+    left:42%;
 }
 
 #itemCount{
@@ -604,6 +635,22 @@ p{
     width:10%;
 }
 
+.Shopping_Cart_Section{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-size: x-large;
+    text-align: center;
+    width: auto;
+    height: 300px;
+    position: relative;
+    margin: 5%;
+}
+
+.Shopping_Cart_Image {
+    position:relative; 
+    right: 20%; 
+    top: 20%; 
+}
 
 
 /************Interactive Elements************/
