@@ -1,4 +1,4 @@
-# PUI-Assignment-6
+# PUI-Assignment-6A
 Assignment 6A
 
 Product Detail Page Updates with user selections
